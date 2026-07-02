@@ -1,0 +1,51 @@
+@media(max-width:1200px){
+
+    section{
+
+        padding:100px 5%;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .title{
+
+        font-size:36px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .title{
+
+        font-size:30px;
+
+    }
+
+    .btn{
+
+        padding:14px 30px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    section{
+
+        padding:90px 20px;
+
+    }
+
+    .title{
+
+        font-size:28px;
+
+    }
+
+}

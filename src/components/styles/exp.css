@@ -1,0 +1,98 @@
+.experience{
+    padding:120px 8%;
+    position:relative;
+}
+
+.timeline{
+    position:relative;
+    margin-top:70px;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:25px;
+    top:0;
+    width:3px;
+    height:100%;
+    background:linear-gradient(#00F5A0,#38BDF8);
+}
+
+.timeline-item{
+    position:relative;
+    margin-bottom:60px;
+    padding-left:70px;
+}
+
+.timeline-dot{
+    position:absolute;
+    left:15px;
+    top:18px;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:#00F5A0;
+    box-shadow:0 0 20px #00F5A0;
+}
+
+.timeline-content{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+    padding:25px;
+    border-radius:18px;
+    transition:.4s;
+}
+
+.timeline-content:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 30px rgba(0,245,160,.25);
+}
+
+.timeline-content h3{
+    margin-bottom:8px;
+    color:#fff;
+}
+
+.timeline-content h4{
+    color:#00F5A0;
+    margin-bottom:8px;
+}
+
+.timeline-content span{
+    color:#9ca3af;
+    font-size:14px;
+}
+
+.timeline-content p{
+    margin-top:15px;
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+@media(max-width:768px){
+
+    .timeline::before{
+        left:12px;
+    }
+
+    .timeline-dot{
+        left:2px;
+    }
+
+    .timeline-item{
+        padding-left:45px;
+    }
+
+}
+
+.card,
+.skill-card,
+.project-card,
+.timeline-content {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+}
