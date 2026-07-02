@@ -1,0 +1,72 @@
+.grid-bg{
+    position:fixed;
+    inset:0;
+
+    background-image:
+            linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+            linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+
+    background-size:45px 45px;
+
+    z-index:-5;
+}
+
+.bg-circle{
+
+    position:fixed;
+
+    border-radius:50%;
+
+    filter:blur(90px);
+
+    animation:float 10s ease-in-out infinite;
+
+    z-index:-4;
+
+}
+
+.circle1{
+
+    width:320px;
+    height:320px;
+
+    background:#00F5A0;
+
+    left:-120px;
+    top:120px;
+
+    opacity:.25;
+
+}
+
+.circle2{
+
+    width:250px;
+    height:250px;
+
+    background:#38BDF8;
+
+    right:-100px;
+    top:300px;
+
+    opacity:.2;
+
+    animation-delay:2s;
+
+}
+
+.circle3{
+
+    width:280px;
+    height:280px;
+
+    background:#7c3aed;
+
+    bottom:-100px;
+    left:35%;
+
+    opacity:.15;
+
+    animation-delay:4s;
+
+}

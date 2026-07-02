@@ -1,0 +1,40 @@
+:root{
+
+    /* Background */
+
+    --bg-color:#050816;
+    --bg-secondary:#0b1224;
+
+    /* Cards */
+
+    --card:#111827;
+    --card-hover:#182338;
+
+    /* Accent */
+
+    --primary:#00F5A0;
+    --secondary:#38BDF8;
+
+    /* Text */
+
+    --white:#ffffff;
+    --gray:#b8c2d0;
+    --light:#dbe4ee;
+
+    /* Shadows */
+
+    --shadow:
+            0 0 20px rgba(0,245,160,.20);
+
+    --shadow-hover:
+            0 0 40px rgba(0,245,160,.45);
+
+    /* Radius */
+
+    --radius:20px;
+
+    /* Transition */
+
+    --transition:.4s ease;
+
+}

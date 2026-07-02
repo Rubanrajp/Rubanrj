@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import "./var.css";
+@import "./animation.css";
+@import "./resp.css";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--bg-color);
+
+    color:white;
+
+    overflow-x:hidden;
+
+}
+
+body::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+body::-webkit-scrollbar-track{
+
+    background:#111;
+
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background:linear-gradient(
+            to bottom,
+            #00F5A0,
+            #38BDF8);
+
+    border-radius:30px;
+
+}
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    cursor:pointer;
+    border:none;
+    outline:none;
+
+}
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+section{
+
+    width:100%;
+    min-height:100vh;
+
+    padding:110px 8%;
+
+    position:relative;
+
+}
+
+.container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.title{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+    color:white;
+
+}
+
+.highlight{
+
+    color:var(--primary);
+
+}
+
+.glass{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    border-radius:20px;
+
+}
+
+.btn{
+
+    padding:16px 38px;
+
+    border-radius:40px;
+
+    background:linear-gradient(
+            135deg,
+            var(--primary),
+            var(--secondary));
+
+    color:#000;
+
+    font-weight:700;
+
+    transition:.4s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:var(--shadow-hover);
+
+}
+
+#tsparticles{
+    position:fixed;
+    inset:0;
+    z-index:-10;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+button, a {
+    transition: all 0.25s ease-in-out;
+}
+
+button:hover, a:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+}
+

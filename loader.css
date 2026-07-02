@@ -1,0 +1,58 @@
+.loader {
+    position: fixed;
+    inset: 0;
+    background: #050816;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.loader-logo {
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.loader-logo span {
+    color: #00F5A0;
+    text-shadow: 0 0 20px #00F5A0;
+}
+
+.loading-bar {
+    width: 320px;
+    height: 8px;
+    background: #1b2336;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.loading-progress {
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #00F5A0, #38BDF8);
+    animation: loading 2.5s linear forwards;
+}
+
+.loader p {
+    color: #bbb;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+@keyframes loading {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
